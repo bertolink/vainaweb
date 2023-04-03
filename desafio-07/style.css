@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 15vh;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 36px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.div-img-copa {
+  padding-left: 5px;
+  width: 70px;
+}
+
+.copa-images {
+  display: flex;
+  width: 300px;
+}
+
+.alemanha {
+  position: relative;
+  top: 7px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.background {
+  background-image: url(pictures/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  background-position: 0, -100px;
+  overflow: hidden;
+}
+
+.meio {
+  width: 450px;
+  padding-top: 100px;
+  padding-left: 60px;
+  font-size: 85px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.images-copa {
+  width: 200px;
+}
+
+main {
+  background-color: green;
+}
+
+.times {
+  margin: 0 auto;
+  margin-top: -200px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  padding: 2px;
+  text-align: center;
+}

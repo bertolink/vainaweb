@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin-left: 1.5vh;
+}
+p,
+li,
+button,
+a {
+  font-size: 2.7vh;
+}
+h2 {
+  font-size: 4.5vh;
+}
+button {
+  background-color: #cdcdd2;
+  padding: 1vh;
+}
+
+picture {
+  display: inline-block;
+}
+
+img {
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.nav-header {
+  margin-top: 3vh;
+}
+
+.ul-header {
+  margin-top: 3vh;
+  margin-left: 6vh;
+}
+
+.li-header {
+  padding: 1vh;
+}
+
+.menu {
+  margin-top: 3vh;
+}
+
+.button-menu {
+  margin-top: 2vh;
+  padding: 0.5vh;
+  margin-bottom: 2vh;
+}
+
+.adote-main {
+  margin-top: 3vh;
+  margin-bottom: 7vh;
+}
+
+/* .button-main {
+
+} */
+
+.sobre-main {
+  margin-top: 3vh;
+}
+
+.p-sobre {
+  margin-top: 2vh;
+  min-width: 280px;
+  max-width: 1500px;
+}
+
+.bola {
+  width: 246px;
+  height: 246px;
+  background-color: #cdcdd2;
+  border-radius: 50%;
+}
+
+.button-voluntario {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.adote {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.thor {
+  height: 166px;
+}
+
+.auau {
+  margin-top: 0.5vh;
+  margin-bottom: 1vh;
+}
+.veja-mais {
+  margin-top: 1vh;
+  margin-bottom: 4vh;
+}
+
+.redes > img {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  min-width: 24px;
+  max-height: 24px;
+}
+
+.redes > img > .insta-logo {
+  width: 28px;
+  height: 28px;
+}
+
+.p-footer {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.ul-footer {
+  margin-bottom: 3vh;
+  margin-left: 6vh;
+}
+
+.li-footer {
+  padding: 1vh;
+}

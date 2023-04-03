@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Desafio Algoritmo</title>
+</head>
+
+<body>
+  <header>
+    <img src="Logo.png" alt="">
+    <nav>
+      <ul>
+        <li onclick="clickIngrediente()">Ingredientes & Materias</li>
+        <li onclick="clickMododePreparo()">Passo a Passo & Modo de Preparo</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Receita de Bolo Simples</h1>
+
+    <div id="ingredientes" class="boxCardIngredientes">
+      <div class="card cardIngredientes">
+        <h2>Ingredientes</h2>
+        <ul>
+          <li>2 xícaras (chá) de açúcar</li>
+          <li>3 xícaras (chá) de farinha de trigo</li>
+          <li>4 colheres (sopa) de margarina</li>
+          <li>3 ovos</li>
+          <li>1 e 1/2 xícara (chá) de leite</li>
+          <li>1 colher (sopa) bem cheia de fermento em pó </li>
+        </ul>
+      </div>
+      <div class="card cardIngredientes">
+        <h2>Materias</h2>
+        <ul>
+          <li>Xícara</li>
+          <li>Colher</li>
+          <li>Forno</li>
+          <li>Gás ou Energia</li>
+          <li>Batedeira ou Batedor de Claras de Arame</li>
+          <li>Tigela Grande</li>
+          <li>Garfo</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="preparo" class="boxCardMododePreparo">
+      <div class="card cardMododePreparo">
+        <h2>Passo a Passo</h2>
+        <ol>
+          <li>Adicione a clara dos ovos em uma tigela.</li>
+          <li>Bata as até formas <a href="https://blog.tudogostoso.com.br/dicas-de-cozinha/truques-claras-em-neve/" target="_blank">"claras em neve"</a> e reserve.</li>
+          <li>Misture as gemas, margarina e o açúcar até obter uma massa homogênea.</li>
+          <li>Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater.</li>
+          <li>Por último, adicione as claras em neve e o fermento.</li>
+          <li>Despeje a massa em uma forma grande de furo central untada e enfarinhada.</li>
+          <li>Asse em forno médio 180 °C, preaquecido, por aproximadamente 40 minutos ou ao furar o bolo com um garfo, este saia limpo.</li>
+          </ul>
+      </div>
+      <div class="card cardMododePreparo">
+        <h2>Modo de Preparo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, molestiae at voluptatem assumenda aspernatur consequuntur minima dicta exercitationem error perferendis eum nulla dignissimos ducimus pariatur suscipit tempore repellat minus similique. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, reprehenderit debitis? Placeat, perferendis deleniti, quaerat dolores accusantium eaque atque molestiae quod temporibus error accusamus ex fugiat magnam delectus libero qui.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por André Bertolin.</p>
+  </footer>
+
+  <script>
+    function clickIngrediente() {
+      if (ingredientes.style.display == "block") {
+        ingredientes.style.display = "flex"
+      } else {
+        ingredientes.style.display = "flex"
+        preparo.style.display = "none"
+      }
+    }
+
+    function clickMododePreparo() {
+      if (preparo.style.display == "flex") {
+        preparo.style.display = "flex"
+      } else {
+        preparo.style.display = "flex"
+        ingredientes.style.display = "none"
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: 'Roboto';
+}
+header {
+  background-color: #129799;
+
+}
+.navegacao {
+  width: 100%;
+}
+
+.ul-navegacao {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 24px;
+  list-style: none;
+}
+
+.ul-navegacao a {
+  text-decoration: none;
+  color: #F7F7F7;
+}
+
+.compasso {
+  color: #F7F7F7;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compasso h1 {
+  margin-top: 22px;
+}
+
+.estilos {
+  width: 100%;
+}
+
+.ul-estilos {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  list-style: none;
+}
+
+.ul-estilos a {
+  text-decoration: none;
+  color: #F7F7F7;
+}
+
+main {
+  background-color: #FFA185;
+}
+
+.texto {
+  padding: 50px 30px;
+  margin: 0 auto;
+  align-items: center;
+  width: 90%;
+  height: 200px;
+}
+
+.texto h2 {
+  align-items: center;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+  font-size: 27px;
+}
+
+.texto p {
+  color: #000000;
+  width: 800px;
+  font-size: 24px;
+}
+
+.pictures {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.pictures img {
+  padding: 20px;
+  width: 550px;
+  height: 350px;
+}
+
+.veja-mais {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #129799;
+  width: 100%;
+  display: flex;
+}
+
+.nav-um {
+  display: flex;
+  list-style: none;
+  width: 45%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nav-um img{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.nav-dois {
+  width: 55%;
+  display: flex;
+}
+
+.ul-nav {
+  width: 55%;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.ul-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
